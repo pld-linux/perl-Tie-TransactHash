@@ -1,12 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	Tie
 %define	pnam	TransactHash
-%include	/usr/lib/rpm/macros.perl
 Summary:	Tie-TransactHash perl module
 Summary(pl):	Modu³ perla Tie-TransactHash
 Name:		perl-Tie-TransactHash
 Version:	0.03
-Release:	7
-
+Release:	8
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -24,7 +23,7 @@ Tie-TransactHash perl module.
 Modu³ perla Tie-TransactHash.
 
 %prep
-%setup -q -n Tie-TransactHash-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 perl Makefile.PL
