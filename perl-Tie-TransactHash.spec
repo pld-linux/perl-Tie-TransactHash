@@ -14,7 +14,7 @@ BuildRequires:	perl-Getopt-Mixed
 BuildRequires:	perl-Tie-IxHash
 %requires_eq	perl
 Requires:	%{perl_sitearch}
-BuildRoot:	/tmp/%{name}-%{version}-root
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 Tie-TransactHash perl module.
