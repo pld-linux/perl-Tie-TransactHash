@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Tie
 %define	pnam	TransactHash
-Summary:	Tie-TransactHash perl module
-Summary(pl):	Modu³ perla Tie-TransactHash
+Summary:	Tie::TransactHash perl module
+Summary(pl):	Modu³ perla Tie::TransactHash
 Name:		perl-Tie-TransactHash
 Version:	0.03
 Release:	8
@@ -17,10 +17,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Tie-TransactHash perl module.
+Tie::TransactHash perl module.
 
 %description -l pl
-Modu³ perla Tie-TransactHash.
+Modu³ perla Tie::TransactHash.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
