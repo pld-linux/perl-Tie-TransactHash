@@ -10,7 +10,8 @@ Summary(pl):	Tie::TransactHash - edycja hasza w transakcjach nie zmieniaj±cych k
 Name:		perl-Tie-TransactHash
 Version:	0.03
 Release:	11
-License:	GPL
+# README claims "same as perl" and GPL v2+
+License:	GPL v2+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	0a25fc726b2f45cfaa6780b2cf3ccf0f
