@@ -1,7 +1,7 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Tie
 %define	pnam	TransactHash
-Summary:	Tie::TransactHash - Edit hash in transactions not changing order during trans
+Summary:	Tie::TransactHash - edit hash in transactions not changing order during trans
 Summary(pl):	Tie::TransactHash - edycja hasza w transakcjach nie zmieniaj±cych kolejno¶ci
 Name:		perl-Tie-TransactHash
 Version:	0.03
