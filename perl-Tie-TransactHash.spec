@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Tie
-%define	pnam	TransactHash
+%define		pdir	Tie
+%define		pnam	TransactHash
 Summary:	Tie::TransactHash - edit hash in transactions not changing order during trans
 Summary(pl):	Tie::TransactHash - edycja hasza w transakcjach nie zmieniaj±cych kolejno¶ci
 Name:		perl-Tie-TransactHash
