@@ -15,7 +15,7 @@ License:	GPL v2+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	0a25fc726b2f45cfaa6780b2cf3ccf0f
-BuildRequires:	perl-devel >= 5.6
+BuildRequires:	perl-devel >= 1:5.8.0
 %if %{with tests}
 BuildRequires:	perl-Getopt-Mixed
 BuildRequires:	perl-Tie-IxHash
