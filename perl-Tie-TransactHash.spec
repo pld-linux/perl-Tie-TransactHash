@@ -5,7 +5,7 @@ Summary:	Tie::TransactHash - Edit hash in transactions not changing order during
 Summary(pl):	Tie::TransactHash - edycja hasza w transakcjach nie zmieniaj±cych kolejno¶ci
 Name:		perl-Tie-TransactHash
 Version:	0.03
-Release:	10
+Release:	11
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -14,7 +14,7 @@ BuildRequires:	perl >= 5.6
 BuildRequires:	perl-Getopt-Mixed
 BuildRequires:	perl-Tie-IxHash
 %endif
-BuildRequires:	rpm-perlprov >= 3.0.3-16
+BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -42,7 +42,8 @@ transakcji podczas iteracji po haszu.
 %setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
-%{__perl} Makefile.PL
+%{__perl} Makefile.PL \
+	INSTALLDIRS=vendor 
 %{__make}
 
 %{!?_without_tests:%{__make} test}
@@ -59,5 +60,5 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc README TODO
 %attr(755,root,root) %{_bindir}/edit-db.pl
-%{perl_sitelib}/Tie/TransactHash.pm
+%{perl_vendorlib}/Tie/TransactHash.pm
 %{_mandir}/man[13]/*
