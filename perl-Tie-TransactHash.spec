@@ -3,7 +3,7 @@ Summary:	Tie-TransactHash perl module
 Summary(pl):	Modu³ perla Tie-TransactHash
 Name:		perl-Tie-TransactHash
 Version:	0.03
-Release:	5
+Release:	6
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
@@ -13,6 +13,7 @@ BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildRequires:	perl >= 5.6
 BuildRequires:	perl-Getopt-Mixed
 BuildRequires:	perl-Tie-IxHash
+BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
