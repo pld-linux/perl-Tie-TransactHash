@@ -6,7 +6,7 @@
 %define		pdir	Tie
 %define		pnam	TransactHash
 Summary:	Tie::TransactHash - edit hash in transactions not changing order during trans
-Summary(pl):	Tie::TransactHash - edycja hasza w transakcjach nie zmieniaj±cych kolejno¶ci
+Summary(pl.UTF-8):   Tie::TransactHash - edycja hasza w transakcjach nie zmieniajÄ…cych kolejnoÅ›ci
 Name:		perl-Tie-TransactHash
 Version:	0.03
 Release:	11
@@ -34,14 +34,14 @@ order (the order the each(), keys() or values() functions give out) is
 maintained - changes can be made to the transact hash whilst iterating
 over it.
 
-%description -l pl
-Tie::TransactHash to pakiet udostêpniaj±cy mo¿liwo¶æ modyfikowania
-innych haszy w transakcjach. Transakcja to grupa zmian, które albo s±
-wykonywanie wszystkie, albo ¿adna. Przy pracy z normalnymi haszami
-perlowymi lub plikiem DBM poindeksowanym haszem, zalet± jest to, ¿e
-oryginalny hasz pozostaje nietkniêty podczas transakcji, wiêc jego
-kolejno¶æ (kolejno¶æ, w jakiej zwracaj± warto¶ci funkcje each(),
-keys() i values()) jest zachowana - zmainy mog± byæ robione w
+%description -l pl.UTF-8
+Tie::TransactHash to pakiet udostÄ™pniajÄ…cy moÅ¼liwoÅ›Ä‡ modyfikowania
+innych haszy w transakcjach. Transakcja to grupa zmian, ktÃ³re albo sÄ…
+wykonywanie wszystkie, albo Å¼adna. Przy pracy z normalnymi haszami
+perlowymi lub plikiem DBM poindeksowanym haszem, zaletÄ… jest to, Å¼e
+oryginalny hasz pozostaje nietkniÄ™ty podczas transakcji, wiÄ™c jego
+kolejnoÅ›Ä‡ (kolejnoÅ›Ä‡, w jakiej zwracajÄ… wartoÅ›ci funkcje each(),
+keys() i values()) jest zachowana - zmainy mogÄ… byÄ‡ robione w
 transakcji podczas iteracji po haszu.
 
 %prep
