@@ -6,7 +6,7 @@
 %define		pdir	Tie
 %define		pnam	TransactHash
 Summary:	Tie::TransactHash - edit hash in transactions not changing order during trans
-Summary(pl.UTF-8):   Tie::TransactHash - edycja hasza w transakcjach nie zmieniających kolejności
+Summary(pl.UTF-8):	Tie::TransactHash - edycja hasza w transakcjach nie zmieniających kolejności
 Name:		perl-Tie-TransactHash
 Version:	0.03
 Release:	11
