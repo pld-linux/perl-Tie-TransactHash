@@ -9,7 +9,7 @@ Summary:	Tie::TransactHash - edit hash in transactions not changing order during
 Summary(pl.UTF-8):	Tie::TransactHash - edycja hasza w transakcjach nie zmieniających kolejności
 Name:		perl-Tie-TransactHash
 Version:	0.03
-Release:	11
+Release:	12
 # README claims "same as perl" and GPL v2+
 License:	GPL v2+ or Artistic
 Group:		Development/Languages/Perl
